@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    margin: 10px auto 0 auto;
+    width: 40%;
+    font-size: 5rem;
+    font-family: 'Rock Salt', cursive;
+    color: #66BFBF;
+    z-index: 2;
+    position: relative;
+}
+
+h2:hover, h1:hover{
+    color: #bf6666;
+}
+
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+p:hover{
+    font-weight: bolder;
+}
+
+a{
+    color: #11999E;
+}
+
+
+.bold-text{
+    font-weight: bold;
+}
+
+.top{
+    /* background-color: #E4EFE7; */
+    background-image: linear-gradient(#9fe4e4, #bee9e9, #daecec, #fff);
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle{
+    margin: 50px 0 50px 0;
+}
+
+.bottom{
+    height: 130px;
+    background-color: #66bfbf;
+    padding: 30px 0 0 0;
+    margin-top: 80px;
+    
+}
+
+.footer-link{
+    margin: 50px 0 50px 0;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 250px;
+    top: 50px;
+    height: 250px;
+    z-index: 1;
+
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 200px;
+    height: 250px;
+}
+
+.myprofpic{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 20px;
+    filter: drop-shadow(0px 3px 1px #66BFBF);
+    
+}
+
+.myprofpic:hover{
+    filter: drop-shadow(0px 3px 3px #66BFBF);
+
+}
+
+.attribution{
+    font-size: 8.5px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.basketball-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+.dottedhr{
+    border-style: dotted none none;
+    width: 4%;
+    border-width: 8px;
+    border-color: #eaf6f6;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.dottedhr:last-of-type{
+    clear: right;
+    margin-top: 0;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.img-btn{
+    height: 40px;
+    width: 40px;
+    margin: 0 5px 0 5px;
+    border-radius: 0.3em;
+}
+
+.top-desc{
+    width: 30%;
+    margin: 0 auto 0 auto;
+    line-height: 2;
+}
+
+.top-desc:last-of-type{
+    width: 40%;
+    margin: 50px auto 50px auto;
+    line-height: 2;
+}
+
+.mountain{
+    filter: drop-shadow(0 -6mm 5mm rgb(209, 209, 209));
+}
+
+.footer-desc{
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+.footer-desc:last-of-type{
+    margin-top: 0;
+}
+
+.links{
+    margin: 0px 0 30px 0;
+}
+
+
+
