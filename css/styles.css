@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
 body{
     margin: 0;
     text-align: center;
@@ -8,35 +10,33 @@ body{
 h1{
     margin: 10px auto 0 auto;
     width: 40%;
-    font-size: 5rem;
-    font-family: 'Rock Salt', cursive;
-    color: #66BFBF;
+    font-size: 4.5rem;
+    font-family: 'Bungee', cursive;
+    color: #66BF93;
     z-index: 2;
     position: relative;
     background-image: none;
 }
 
-h2:hover, h1:hover{
-    color: #bf6666;
-}
-
 
 h2{
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    color: #66BFBF;
+    font-size: 2rem;
+    /* color: #66BFBF; */
+    color: #66BF93;
     font-weight: normal;
     margin-bottom: 50px;
+    margin-top: 0;
 }
 
 h3{
     font-family: 'Montserrat', sans-serif;
-    color: #11999E;
+    color: #119E5D;
 }
 
 
 a{
-    color: #11999E;
+    color: #119E5D;
 }
 
 
@@ -57,7 +57,7 @@ a{
 
 .bottom{
     height: 130px;
-    background-color: #66bfbf;
+    background-color: #66BF93;
     padding: 30px 0 0 0;
     margin-top: 80px;
     
@@ -71,7 +71,7 @@ a{
     position: absolute;
     right: 250px;
     top: 50px;
-    height: 250px;
+    height: 200px;
     z-index: 1;
 
 }
@@ -80,7 +80,7 @@ a{
     position: absolute;
     left: 250px;
     bottom: 200px;
-    height: 250px;
+    height: 200px;
 }
 
 .myprofpic{
@@ -88,6 +88,7 @@ a{
     width: 200px;
     border-radius: 100%;
     margin-top: 20px;
+    margin-bottom: 20px;
     filter: drop-shadow(0px 3px 1px #66BFBF);
     
 }
@@ -136,12 +137,12 @@ a{
 }
 
 .btn {
-    background: #11cdd4;
-    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    background: #66BF93;
+    background-image: -webkit-linear-gradient(top, #66BF93, #68d49e);
+    background-image: -moz-linear-gradient(top, #66BF93, #68d49e);
+    background-image: -ms-linear-gradient(top, #66BF93, #68d49e);
+    background-image: -o-linear-gradient(top, #66BF93, #68d49e);
+    background-image: linear-gradient(to bottom, #66BF93, #68d49e);
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
@@ -153,12 +154,12 @@ a{
   }
   
   .btn:hover {
-    background: #30e3cb;
-    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    background: #73d1a2;
+    background-image: -webkit-linear-gradient(top, #73d1a2, #6cc799);
+    background-image: -moz-linear-gradient(top, #73d1a2, #6cc799);
+    background-image: -ms-linear-gradient(top, #73d1a2, #6cc799);
+    background-image: -o-linear-gradient(top, #73d1a2, #6cc799);
+    background-image: linear-gradient(to bottom, #73d1a2, #6cc799);
     text-decoration: none;
   }
 
