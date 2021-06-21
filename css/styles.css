@@ -2,6 +2,7 @@ body{
     margin: 0;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    color: rgb(70, 70, 70);
 }
 
 h1{
@@ -12,6 +13,7 @@ h1{
     color: #66BFBF;
     z-index: 2;
     position: relative;
+    background-image: none;
 }
 
 h2:hover, h1:hover{
@@ -32,9 +34,6 @@ h3{
     color: #11999E;
 }
 
-p:hover{
-    font-weight: bolder;
-}
 
 a{
     color: #11999E;
@@ -189,6 +188,8 @@ a{
 .footer-desc{
     margin-bottom: 0;
     margin-top: 0px;
+    color: #eaf6f6;
+    font-size: 0.75rem;
 }
 
 .footer-desc:last-of-type{
